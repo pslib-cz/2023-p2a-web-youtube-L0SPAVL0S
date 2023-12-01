@@ -12,7 +12,6 @@
 
 .ytv {
    /* flex-grow: 1; */
-    max-width: 960px;
       display: flex;
       /* flex-wrap: wrap; */
       flex-direction: column;
@@ -30,7 +29,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-between;
-   justify-content: end;
+   /* justify-content: end; */
     
 }
 .ytv__left {
@@ -59,7 +58,8 @@
    justify-content: end;
    gap: 1em;
    align-content: flex-end;
-    margin-left: auto;
+   flex-grow: 1;
+    /* margin-left: auto; */
 }
 .profile {
     display: flex;
